@@ -1,0 +1,28 @@
+@import "styles/consts";
+
+.wrapper {
+
+}
+
+.btn {
+  padding: 16px 24px;
+  color: $white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: $purple;
+  box-shadow: 0 4px 36px 0 rgba(0,0,0,0.06);
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.bordered {
+  color: $white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: transparent;
+  box-shadow: 0 4px 36px 0 rgba(0,0,0,0.06);
+  border: 2px solid $white;
+  cursor: pointer;
+}

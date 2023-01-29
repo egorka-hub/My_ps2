@@ -1,0 +1,28 @@
+.copyright {
+  padding: 30px 0;
+  background-color: #24242B;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crText {
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+
+  & > a {
+    cursor: pointer;
+    padding: 4px;
+
+    &:not(:last-of-type) {
+      margin-right: 6px;
+    }
+  }
+}

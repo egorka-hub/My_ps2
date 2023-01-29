@@ -1,0 +1,36 @@
+@import "styles/consts";
+
+.solution {
+  background-color: $whiteGray;
+  padding: 80px 0;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #343440;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  max-width: 760px;
+  font-size: 32px;
+}
+
+.text {
+  color: #343440;
+  text-align: center;
+  margin: 0;
+  max-width: 640px;
+  font-size: 18px;
+  padding: 20px 0 56px;
+  line-height: 28px;
+}
+
+.tasksBlock {
+  display: flex;
+  justify-content: center;
+}

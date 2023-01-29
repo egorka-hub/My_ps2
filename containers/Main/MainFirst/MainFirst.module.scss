@@ -1,0 +1,46 @@
+@import "styles/consts";
+
+.background {
+  background-color: $whiteGray;
+}
+
+.main {
+  background-color: #343440;
+  border-radius: 0 0 160px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.content {
+  max-width: 536px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 46px;
+  margin-bottom: 28px;
+  line-height: 48px;
+
+}
+
+.text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  line-height: 28px;
+
+}
+
+.wrapperBtns {
+  display: flex;
+
+  & > div:first-of-type {
+    margin-right: 20px;
+  }
+}

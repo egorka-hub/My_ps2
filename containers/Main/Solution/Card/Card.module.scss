@@ -1,0 +1,41 @@
+.task {
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.06);
+}
+
+.wrapper {
+  padding: 50px 30px;
+}
+
+.title {
+  color: #343440;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 32px;
+  line-height: 30px;
+  max-width: 248px;
+}
+
+// .btn {
+//   height: 48px;
+//   width: 180px;
+//   color: #ffffff;
+//   font-size: 14px;
+//   font-weight: 500;
+//   border-radius: 6px;
+//   background-color: #6f34da;
+//   box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.06);
+//   border-color: transparent;
+//   cursor: pointer;
+// }
+
+.question {
+  color: #343440;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 30px;
+}
