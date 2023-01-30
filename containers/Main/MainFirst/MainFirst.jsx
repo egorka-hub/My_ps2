@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { memo } from 'react';
+import { memo } from "react";
 
 import Container from "components/Container/Container";
-import Button from '@/components/Button/Button';
+import Button from "@/components/Button/Button";
 
-import styles   from "./MainFirst.module.scss";
+import styles from "./MainFirst.module.scss";
 
 const MainFirst = () => {
   return (
@@ -15,16 +15,15 @@ const MainFirst = () => {
             <div className={styles.leftMain}>
               <div className={styles.content}>
                 <h1 className={styles.title}>
-                  Всё, что вам нужно для управления бизнесом
+                  Облачная система для полного контроля над вашим бизнесом
                 </h1>
                 <h2 className={styles.text}>
-                  Будьте всегда в курсе того, что происходит. Знайте, чего хотят
-                  клиенты. Эффективно управляйте ресурсами и временем.
-                  Оптимизируйте расходы. Повышайте прибыль.
+                  Объединяем продажи, проекты, производство, финансы, документы
+                  и склад.
                 </h2>
                 <div className={styles.wrapperBtns}>
-                  <Button title='Попробовать бесплатно' />
-                  <Button title='Заказать звонок' bordered />
+                  <Button title="Попробовать бесплатно" />
+                  <Button title="Заказать звонок" bordered />
                 </div>
               </div>
             </div>
