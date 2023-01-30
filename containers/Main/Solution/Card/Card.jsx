@@ -2,7 +2,6 @@ import Button from "@/components/Button/Button";
 
 import styles from "./Card.module.scss";
 
-
 const Card = ({ title, questions }) => {
   return (
     <>
@@ -15,11 +14,14 @@ const Card = ({ title, questions }) => {
           </p>
           <div className={styles.questions}>
             {questions.map((q, i) => (
-              <div key={i} className={styles.question}>{q}</div>
+              <div key={i} className={styles.question}>
+                {q}
+              </div>
             ))}
           </div>
-
-          <Button title="Посмотреть решения" className={styles.btn} />
+        </div>
+        <div className={styles.btns}>
+        <Button title="Посмотреть решения" className={styles.btn} />
         </div>
       </div>
     </>
@@ -27,5 +29,3 @@ const Card = ({ title, questions }) => {
 };
 
 export default Card;
-
-
