@@ -13,24 +13,24 @@ const Companies = () => {
         <Container>
           <div className={styles.wrapper}>
             <h2 className={styles.text}>
-              1500+ компаний уже стали клиентами S2 ERP
+              Выбор более 3500 клиентов по всей России и СНГ
             </h2>
 
             <div className={styles.imgBlock}>
-             {companies.map(({image, width, height}, i) => (
-               <a>
-               <span >
-                 <Image
-                   key={i}
-                   className={styles.img}
-                   src={image}
-                   alt="company"
-                   width={width}
-                   height={height}
-                 />
-               </span>
-             </a>
-             ))}
+              {companies.map(({ image, width, height }, i) => (
+                <a>
+                  <span>
+                    <Image
+                      key={i}
+                      className={styles.img}
+                      src={image}
+                      alt="company"
+                      width={width}
+                      height={height}
+                    />
+                  </span>
+                </a>
+              ))}
             </div>
           </div>
         </Container>
@@ -40,5 +40,3 @@ const Companies = () => {
 };
 
 export default Companies;
-
-
