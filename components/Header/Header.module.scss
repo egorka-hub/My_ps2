@@ -1,5 +1,7 @@
+@import "../../styles/consts.scss";
+
 .header {
-  padding: 14px 0;
+  padding: 8px 0;
 }
 
 .navBar {
@@ -11,14 +13,3 @@
 .logoBlack {
   cursor: pointer;
 }
-
-// .navMenu {
-//     display: flex;
-// }
-
-// .menuItem {
-//     color: #343440;
-//     font-size: 14px;
-//     padding: 6px;
-//     cursor: pointer;
-// }

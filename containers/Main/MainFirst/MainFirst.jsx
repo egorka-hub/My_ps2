@@ -34,8 +34,8 @@ const MainFirst = () => {
                 className={styles.logoBlack}
                 src="/"
                 alt=""
-                width={400}
-                height={400}
+                width={348}
+                height={348}
               />
             </div>
           </div>
