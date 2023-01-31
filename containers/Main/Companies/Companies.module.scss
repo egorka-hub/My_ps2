@@ -1,17 +1,35 @@
+@import "styles/consts";
+
+// screens
+// $lg: 1280px;
+// $md: 1024px;
+// $sm: 768px;
+// $xs: 360px;
+
 .companies {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #343440;
-    font-size: 32px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #343440;
+  font-size: 32px;
+  margin-bottom: 50px;
+
+  @media (max-width: $md) {
+    text-align: center;
+  }
+}
+
+.imgBlock {
+  @media (max-width: $md) {
+    text-align: center;
+  }
 }
 
 .img {
-    cursor: pointer;
-    margin: 14px;
+  cursor: pointer;
+  margin: 14px;
 }

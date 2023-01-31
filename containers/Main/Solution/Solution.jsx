@@ -9,7 +9,7 @@ const Solution = () => {
   return (
     <>
       <div className={styles.solution}>
-        <Container>
+        <Container className={styles.container}>
           <div className={styles.wrapper}>
             <div className={styles.titleBlock}>
               {/* <h2 className={styles.title}>Кому подойдет:</h2> */}

@@ -1,5 +1,11 @@
 @import "styles/consts";
 
+// screens
+// $lg: 1280px;
+// $md: 1024px;
+// $sm: 768px;
+// $xs: 360px;
+
 .background {
   background-color: $whiteGray;
 }
@@ -10,14 +16,21 @@
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+
+  @media (max-width: $md) {
+    flex-direction: column;
+  }
 }
 
 .content {
   max-width: 536px;
+  @media (max-width: $md) {
+    margin-bottom: 30px;
+  }
 }
 
 .title {
@@ -26,6 +39,11 @@
   margin-bottom: 28px;
   line-height: 48px;
 
+  @media (max-width: $md) {
+    font-size: 42px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
 }
 
 .text {
@@ -35,6 +53,9 @@
   margin-bottom: 30px;
   line-height: 28px;
 
+  @media (max-width: $md) {
+    text-align: center;
+  }
 }
 
 .wrapperBtns {
@@ -42,5 +63,50 @@
 
   & > div:first-of-type {
     margin-right: 20px;
+
+    @media (max-width: $sm) {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $md) {
+    justify-content: center;
+  }
+
+  @media (max-width: $sm) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.btn {
+  @media (max-width: $sm) {
+    margin-bottom: 20px;
+  }
+}
+
+.video {
+  @media (max-width: 1350px) {
+    width: 504px;
+    height: 284px;
+  }
+
+  @media (max-width: $lg) {
+    width: 454px;
+    height: 256px;
+  }
+
+  @media (max-width: 1182px) {
+    width: 422px;
+    height: 238px;
+  }
+
+  @media (max-width: $md) {
+    width: 408px;
+    height: 230px;
+  }
+
+  @media (max-width: $sm) {
+    display: none;
   }
 }

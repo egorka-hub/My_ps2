@@ -10,12 +10,12 @@ const MainFirst = () => {
   return (
     <div className={styles.background}>
       <div className={styles.main}>
-        <Container>
+        <Container className={styles.container}>
           <div className={styles.wrapper}>
             <div className={styles.leftMain}>
               <div className={styles.content}>
                 <h1 className={styles.title}>
-                  Облачная система &ensp; &ensp; для полного контроля над вашим
+                  Облачная система для полного контроля над вашим
                   бизнесом
                 </h1>
                 <h2 className={styles.text}>
@@ -23,14 +23,14 @@ const MainFirst = () => {
                   и склад
                 </h2>
                 <div className={styles.wrapperBtns}>
-                  <Button title="Попробовать бесплатно" />
+                  <Button title="Попробовать бесплатно" className={styles.btn}/>
                   <Button title="Заказать звонок" bordered />
                 </div>
               </div>
             </div>
 
             <div className={styles.rightMain}>
-              <iframe
+              <iframe className={styles.video}
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/mvqI0bJoYms"
