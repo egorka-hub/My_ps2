@@ -15,7 +15,7 @@ import SNRGY_PNG from "../../../public/images/companies/snrgy@2x.png";
 import TOGAS_PNG from "../../../public/images/companies/togas@2x.png";
 import SKYENG_PNG from "../../../public/images/companies/skyeng@2x.png";
 
-export const companies = [
+export const COMPANIES = [
   {
     image: TOGAS_PNG,
     width: 100,

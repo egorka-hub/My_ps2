@@ -4,7 +4,7 @@ import Container from "@/components/Container/Container";
 
 import styles from "./Companies.module.scss";
 
-import { companies } from "./consts";
+import { COMPANIES } from "./consts";
 
 const Companies = () => {
   return (
@@ -17,7 +17,7 @@ const Companies = () => {
             </h2>
 
             <div className={styles.imgBlock}>
-              {companies.map(({ image, width, height }, i) => (
+              {COMPANIES.map(({ image, width, height }, i) => (
                 <a>
                   <span>
                     <Image

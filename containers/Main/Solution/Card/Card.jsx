@@ -2,17 +2,14 @@ import Button from "@/components/Button/Button";
 
 import styles from "./Card.module.scss";
 
-const Card = ({ questions, titles }) => {
+const Card = ({ questions, title }) => {
   return (
     <>
       <div className={styles.task}>
         <div className={styles.wrapper}>
-          {titles.map((t, i) => (
-            <p key={i} className={styles.title}>
-            {t}
+          <p className={styles.title}>
+            {title}
           </p>
-          ))}
-          
           <div className={styles.questions}>
             {questions.map((q, i) => (
               <div key={i} className={styles.question}>

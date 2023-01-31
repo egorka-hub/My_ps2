@@ -15,11 +15,12 @@ const MainFirst = () => {
             <div className={styles.leftMain}>
               <div className={styles.content}>
                 <h1 className={styles.title}>
-                  Облачная система для полного контроля над вашим бизнесом
+                  Облачная система &ensp; &ensp; для полного контроля над вашим
+                  бизнесом
                 </h1>
                 <h2 className={styles.text}>
                   Объединяем продажи, проекты, производство, финансы, документы
-                  и склад.
+                  и склад
                 </h2>
                 <div className={styles.wrapperBtns}>
                   <Button title="Попробовать бесплатно" />
@@ -29,13 +30,22 @@ const MainFirst = () => {
             </div>
 
             <div className={styles.rightMain}>
-              <Image
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/mvqI0bJoYms"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              {/* <Image
                 className={styles.logoBlack}
                 src="/"
                 alt=""
                 width={348}
                 height={348}
-              />
+              /> */}
             </div>
           </div>
         </Container>

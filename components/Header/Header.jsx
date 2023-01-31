@@ -19,7 +19,8 @@ const Header = () => {
             <div>
               <a>
                 <span>
-                  <Image className={styles.logoBlack}
+                  <Image
+                    className={styles.logoBlack}
                     src={LOGO_BLACK_SVG}
                     alt="Logo"
                     width={128}
@@ -28,6 +29,7 @@ const Header = () => {
                 </span>
               </a>
             </div>
+
 
             {/* <div className={styles.headerMenu}>
               <nav className={styles.navMenu}>
@@ -48,7 +50,7 @@ const Header = () => {
               </nav>
             </div> */}
 
-            <Button title='Попробовать бесплатно' />
+            <Button title="Попробовать бесплатно" />
           </div>
         </Container>
       </header>

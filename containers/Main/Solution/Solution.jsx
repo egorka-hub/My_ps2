@@ -3,7 +3,7 @@ import Card from "./Card/Card";
 
 import styles from "./Solution.module.scss";
 
-import { Card1, Card2, Card3, Title1, Title2, Title3 } from "./Card/consts";
+import { CARDS } from '@/containers/Main/Solution/consts';
 
 const Solution = () => {
   return (
@@ -20,9 +20,9 @@ const Solution = () => {
             </div>
 
             <div className={styles.tasksBlock}>
-              <Card questions={Card1} titles={Title1}/>
-              <Card questions={Card2} titles={Title2}/>
-              <Card questions={Card3} titles={Title3}/>
+              {CARDS.map(({title, questions}) => (
+                <Card questions={questions} title={title} />
+              ))}
             </div>
           </div>
         </Container>
