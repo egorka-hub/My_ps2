@@ -2,7 +2,7 @@ export const Title1 = ["Начинаю рост бизнеса"];
 
 export const Title2 = ["Знаю свои потребности"];
 
-export const Title3 = ["Крупный бизнес с особыми задачами"];
+export const Title3 = ["Крупный бизнес"];
 
 export const Card1 = [
   "У вас уже есть клиентская база?",
