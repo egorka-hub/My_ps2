@@ -1,5 +1,4 @@
 import Image from "next/image";
-// добавил
 import { useState } from "react";
 
 import Container from "../Container/Container";
@@ -8,9 +7,9 @@ import Button from "../Button/Button";
 import styles from "./Header.module.scss";
 
 import LOGO_BLACK_SVG from "../../public/images/logo_black.svg";
+import LOGIN_SVG from "../../public/images/login.svg";
 
 const Header = () => {
-  const [nav, setNav] = useState(false);
   return (
     <>
       <header className={styles.header}>
@@ -29,7 +28,6 @@ const Header = () => {
                 </span>
               </a>
             </div>
-
 
             {/* <div className={styles.headerMenu}>
               <nav className={styles.navMenu}>
@@ -50,7 +48,21 @@ const Header = () => {
               </nav>
             </div> */}
 
-            <Button title="Попробовать бесплатно" />
+            <div className={styles.rightNav}>
+              <div className={styles.loginBlock}>
+                <Image
+                  className={styles.loginImage}
+                  src={LOGIN_SVG}
+                  alt="Login"
+                  width={18}
+                  height={18}
+                />
+                <a className={styles.login} href="#">
+                  Войти
+                </a>
+              </div>
+              <Button title="Попробовать бесплатно" />
+            </div>
           </div>
         </Container>
       </header>

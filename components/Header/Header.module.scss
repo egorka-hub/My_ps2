@@ -13,3 +13,20 @@
 .logoBlack {
   cursor: pointer;
 }
+
+.rightNav {
+  display: flex;
+}
+
+.loginBlock {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.login {
+  margin-right: 8px;
+  text-decoration: none;
+  color: #343440;
+}
