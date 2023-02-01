@@ -1,20 +1,21 @@
-import A3BEUTE_PNG from "../../../public/images/companies/a3beaute@2x.png";
-import AGATPAK_PNG from "../../../public/images/companies/agatpak@2x.png";
-import AVTOGAZ_PNG from "../../../public/images/companies/avtogaz@2x.png";
-import CKPP_PNG from "../../../public/images/companies/ckpp@2x.png";
-import DZAGI_PNG from "../../../public/images/companies/dzagi@2x.png";
-import EMIMAR_PNG from "../../../public/images/companies/emimar@2x.png";
-import GEEK_PNG from "../../../public/images/companies/geek@2x.png";
-import RCIB_PNG from "../../../public/images/companies/rcib@2x.png";
-import VLLOG_PNG from "../../../public/images/companies/vllog@2x.png";
-import NLI_PNG from "../../../public/images/companies/nli@2x.png";
-import PGM_PNG from "../../../public/images/companies/pgm@2x.png";
-import RIT_PNG from "../../../public/images/companies/rit@2x.png";
-import SKILL_PNG from "../../../public/images/companies/skill@2x.png";
-import SNRGY_PNG from "../../../public/images/companies/snrgy@2x.png";
-import TOGAS_PNG from "../../../public/images/companies/togas@2x.png";
-import SKYENG_PNG from "../../../public/images/companies/skyeng@2x.png";
+import A3BEUTE_PNG from '../../../public/images/companies/a3beaute@2x.png';
+import AGATPAK_PNG from '../../../public/images/companies/agatpak@2x.png';
+import AVTOGAZ_PNG from '../../../public/images/companies/avtogaz@2x.png';
+import CKPP_PNG from '../../../public/images/companies/ckpp@2x.png';
+import DZAGI_PNG from '../../../public/images/companies/dzagi@2x.png';
+import EMIMAR_PNG from '../../../public/images/companies/emimar@2x.png';
+import GEEK_PNG from '../../../public/images/companies/geek@2x.png';
+import RCIB_PNG from '../../../public/images/companies/rcib@2x.png';
+import VLLOG_PNG from '../../../public/images/companies/vllog@2x.png';
+import NLI_PNG from '../../../public/images/companies/nli@2x.png';
+import PGM_PNG from '../../../public/images/companies/pgm@2x.png';
+import RIT_PNG from '../../../public/images/companies/rit@2x.png';
+import SKILL_PNG from '../../../public/images/companies/skill@2x.png';
+import SNRGY_PNG from '../../../public/images/companies/snrgy@2x.png';
+import TOGAS_PNG from '../../../public/images/companies/togas@2x.png';
+import SKYENG_PNG from '../../../public/images/companies/skyeng@2x.png';
 
+// eslint-disable-next-line import/prefer-default-export
 export const COMPANIES = [
   {
     image: TOGAS_PNG,

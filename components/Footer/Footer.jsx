@@ -1,16 +1,18 @@
-import cn from "classnames";
-import Image from "next/image";
+import cn from 'classnames';
+import Image from 'next/image';
 
-import Container from "../Container/Container";
-import Copyright from "../Copyright/Copyright";
+import Container from '../Container/Container';
+import Copyright from '../Copyright/Copyright';
 
-import styles from "./Footer.module.scss";
+import styles from './Footer.module.scss';
 
-import LOGO_WHITE_SVG from "../../public/images/logo_white.svg";
+import LOGO_WHITE_SVG from '../../public/images/logo_white.svg';
 
-import { company, documents, partners, start } from "../Footer/consts";
+import {
+  company, documents, partners, start,
+} from './consts';
 
-const Footer = () => {
+function Footer() {
   return (
     <div className={styles.footer}>
       <Container>
@@ -83,6 +85,6 @@ const Footer = () => {
       <Copyright />
     </div>
   );
-};
+}
 
 export default Footer;

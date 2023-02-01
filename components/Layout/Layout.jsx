@@ -1,15 +1,15 @@
 import { memo } from 'react';
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   return (
     <>
-      <Header/>
+      <Header />
       {children}
-      <Footer/>
+      <Footer />
     </>
   );
-};
+}
 
 export default memo(Layout);

@@ -1,33 +1,31 @@
 import { useRouter } from 'next/router';
-import { memo } from 'react'
 import {
+  memo,
   useEffect,
-  useState
+  useState,
 } from 'react';
 
-const REDIRECT_TIME = 3
+const REDIRECT_TIME = 3;
 
-const Error404 = () => {
-  const [time, setTime] = useState(REDIRECT_TIME)
+function Error404() {
+  const [time, setTime] = useState(REDIRECT_TIME);
 
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
     if (time === 0) {
-      router.push('/')
+      router.push('/');
     }
     const interval = setInterval(
-      () => setTime(prev => prev - 1),
+      () => setTime((prev) => prev - 1),
       1000,
     );
     return () => clearInterval(interval);
   }, [time]);
 
   return (
-    <>
-      <h1>Ошибка 404: Страница не найдена</h1>
-    </>
+    <h1>Ошибка 404: Страница не найдена</h1>
   );
-};
+}
 
 export default memo(Error404);

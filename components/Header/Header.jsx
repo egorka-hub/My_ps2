@@ -1,35 +1,34 @@
-import Image from "next/image";
-import { useState } from "react";
+import Image from 'next/image';
+import { useState } from 'react';
 
-import Container from "../Container/Container";
-import Button from "../Button/Button";
+import Container from '../Container/Container';
+import Button from '../Button/Button';
 
-import styles from "./Header.module.scss";
+import styles from './Header.module.scss';
 
-import LOGO_BLACK_SVG from "../../public/images/logo_black.svg";
-import LOGIN_SVG from "../../public/images/login.svg";
+import LOGO_BLACK_SVG from '../../public/images/logo_black.svg';
+import LOGIN_SVG from '../../public/images/login.svg';
 
-const Header = () => {
+function Header() {
   return (
-    <>
-      <header className={styles.header}>
-        <Container>
-          <div className={styles.navBar}>
-            <div>
-              <a>
-                <span>
-                  <Image
-                    className={styles.logoBlack}
-                    src={LOGO_BLACK_SVG}
-                    alt="Logo"
-                    width={128}
-                    height={28}
-                  />
-                </span>
-              </a>
-            </div>
+    <header className={styles.header}>
+      <Container>
+        <div className={styles.navBar}>
+          <div>
+            <a>
+              <span>
+                <Image
+                  className={styles.logoBlack}
+                  src={LOGO_BLACK_SVG}
+                  alt="Logo"
+                  width={128}
+                  height={28}
+                />
+              </span>
+            </a>
+          </div>
 
-            {/* <div className={styles.headerMenu}>
+          {/* <div className={styles.headerMenu}>
               <nav className={styles.navMenu}>
                 <div className={styles.menuItem}>
                   <Image src="/" alt="Call" width={16} height={16} />
@@ -48,26 +47,25 @@ const Header = () => {
               </nav>
             </div> */}
 
-            <div className={styles.rightNav}>
-              <div className={styles.loginBlock}>
-                <Image
-                  className={styles.loginImage}
-                  src={LOGIN_SVG}
-                  alt="Login"
-                  width={18}
-                  height={18}
-                />
-                <a className={styles.login} href="#">
-                  Войти
-                </a>
-              </div>
-              <Button title="Попробовать бесплатно" />
+          <div className={styles.rightNav}>
+            <div className={styles.loginBlock}>
+              <Image
+                className={styles.loginImage}
+                src={LOGIN_SVG}
+                alt="Login"
+                width={18}
+                height={18}
+              />
+              <a className={styles.login} href="#">
+                Войти
+              </a>
             </div>
+            <Button title="Попробовать бесплатно" />
           </div>
-        </Container>
-      </header>
-    </>
+        </div>
+      </Container>
+    </header>
   );
-};
+}
 
 export default Header;

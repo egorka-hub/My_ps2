@@ -1,8 +1,8 @@
-import { memo } from "react";
+import { memo } from 'react';
 
-import MainFirst from "./MainFirst/MainFirst";
-import Solution from "./Solution/Solution";
-import Companies from "./Companies/Companies";
+import MainFirst from './MainFirst/MainFirst';
+import Solution from './Solution/Solution';
+import Companies from './Companies/Companies';
 
 function Main() {
   return (

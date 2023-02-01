@@ -1,18 +1,21 @@
-import Layout from "@/components/Layout/Layout";
-import "@/styles/globals.css";
+import Layout from '@/components/Layout/Layout';
+import '@/styles/globals.css';
 
-import { Inter } from '@next/font/google'
+import { Inter } from '@next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <style jsx global>{`
+      <style jsx global>
+        {`
         html {
           font-family: ${inter.style.fontFamily};
         }
-      `}</style>
+      `}
+
+      </style>
       <Layout>
         <Component {...pageProps} />
       </Layout>
