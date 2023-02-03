@@ -2,7 +2,6 @@
 
 .task {
   width: 380px;
-  border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.06);
   display: flex;
@@ -14,7 +13,7 @@
   }
 
   &:hover {
-    background-color: #f9f9ff;
+    background-color: #d111521a;
   }
 }
 

@@ -7,12 +7,14 @@
 // $xs: 360px;
 
 .background {
-  background-color: $whiteGray;
+  background-color: #FFFFFF;
 }
 
 .main {
-  background-color: #343440;
+  background-color: #FFFFFF;
   border-radius: 0 0 160px 0;
+  padding: 14px;
+  margin-top: 35px;
 }
 
 .wrapper {
@@ -34,7 +36,7 @@
 }
 
 .title {
-  color: #ffffff;
+  color: #343440;
   font-size: 46px;
   margin-bottom: 28px;
   line-height: 48px;
@@ -47,7 +49,7 @@
 }
 
 .text {
-  color: #ffffff;
+  color: #343440;
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 30px;

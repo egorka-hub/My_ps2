@@ -1,0 +1,33 @@
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.line {
+  background-color: #d11152;
+  width: 100px;
+  height: 3px;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 29px;
+    padding: 16px 0;
+    color: #343440;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 400px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #343440;
+}
