@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const POINTS = [
+const POINTS = [
   {
     title: 'Организуйте работу по вашим условиям',
     text: 'Любые воронки, этапы, сценарии автоматизаций, чек-листы и особые доступы для каждого сотрудника',
@@ -28,3 +27,5 @@ export const POINTS = [
     isReverse: false,
   },
 ];
+
+export default POINTS;

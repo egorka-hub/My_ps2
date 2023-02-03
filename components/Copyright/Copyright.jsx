@@ -11,22 +11,22 @@ import YOUTUBE_SVG from '../../public/images/sns/youtube.svg';
 
 const socials = [
   {
-    styles: { width: '22px', height: '14px' },
+    style: { width: '22px', height: '14px' },
     image: VK_SVG,
     label: 'Vk',
   },
   {
-    styles: { width: '18px', height: '18px' },
+    style: { width: '18px', height: '18px' },
     image: FACEBOOK_SVG,
     label: 'Facebook',
   },
   {
-    styles: { width: '18px', height: '18px' },
+    style: { width: '18px', height: '18px' },
     image: INSTA_SVG,
     label: 'Instagram',
   },
   {
-    styles: { width: '22px', height: '14px' },
+    style: { width: '22px', height: '14px' },
     image: YOUTUBE_SVG,
     label: 'YouTube',
   },
@@ -41,9 +41,9 @@ function Copyright() {
             © Salesapiens 2015–2023. Все права защищены
           </div>
           <div className={styles.media}>
-            {socials.map(({ styles, image, label }) => (
+            {socials.map(({ style, image, label }) => (
               <a key={label}>
-                <Image style={styles} src={image} alt={label} />
+                <Image style={style} src={image} alt={label} />
               </a>
             ))}
           </div>

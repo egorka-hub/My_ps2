@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const CASES = [
+const CASES = [
   {
     caseTitle: 'ИП Смирнова',
     caseText: 'Как навести порядок в новых клиентах и облегчить с ними работу?',
@@ -10,3 +9,5 @@ export const CASES = [
   },
 
 ];
+
+export default CASES;

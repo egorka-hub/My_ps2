@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const POINTS = [
+const POINTS = [
   {
     title: 'В реестре отечественного ПО',
     // eslint-disable-next-line max-len
@@ -43,3 +42,5 @@ export const POINTS = [
     isReverse: false,
   },
 ];
+
+export default POINTS;

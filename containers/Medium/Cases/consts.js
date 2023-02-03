@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export const CASES = [
+const CASES = [
   {
     caseTitle: 'Национальная лига инструкторов',
     caseText: 'Как крупнейшая школа по обучению зимним видам спорта оцифровала свою работу и освободила до 60% времени своих менеджеров',
@@ -10,3 +9,5 @@ export const CASES = [
   },
 
 ];
+
+export default CASES;

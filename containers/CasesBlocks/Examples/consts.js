@@ -1,8 +1,7 @@
-// eslint-disable-next-line import/prefer-default-export
-export const CASES = [
+const CASES = [
   {
     title: 'title title',
-    text: 'text text text text text text text text text text text text text text text text'
+    text: 'text text text text text text text text text text text text text text text text',
   },
   {
     title: 'title title tile',
@@ -13,3 +12,5 @@ export const CASES = [
     text: 'text text text text',
   },
 ];
+
+export default CASES;

@@ -17,9 +17,7 @@ function Card({ questions, title }) {
           ))}
         </div>
       </div>
-      <div className={styles.btns}>
-        <Button title="Узнать подробнее" className={styles.btn} />
-      </div>
+      <Button title="Узнать подробнее" className={styles.btn} />
     </div>
   );
 }

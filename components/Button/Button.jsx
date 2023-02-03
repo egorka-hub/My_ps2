@@ -10,11 +10,13 @@ function Button({
 }) {
   return (
     <div className={styles.wrapper}>
-      <button className={c(
-        styles.btn,
-        className,
-        { [styles.bordered]: bordered },
-      )}
+      <button
+        className={c(
+          styles.btn,
+          className,
+          { [styles.bordered]: bordered },
+        )}
+        type="button"
       >
         {title}
       </button>

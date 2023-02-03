@@ -1,11 +1,10 @@
-import IMG_1 from '../../../public/images/business/small/1.jpg';
-import IMG_2 from '../../../public/images/business/small/2.jpg';
-import IMG_3 from '../../../public/images/business/small/3.jpg';
-import IMG_4 from '../../../public/images/business/small/4.jpg';
-import IMG_5 from '../../../public/images/business/small/5.jpg';
+import IMG_1 from '@/public/images/business/small/1.jpg';
+import IMG_2 from '@/public/images/business/small/2.jpg';
+import IMG_3 from '@/public/images/business/small/3.jpg';
+import IMG_4 from '@/public/images/business/small/4.jpg';
+import IMG_5 from '@/public/images/business/small/5.jpg';
 
-// eslint-disable-next-line import/prefer-default-export
-export const POINTS = [
+const POINTS = [
   {
     title: 'Не теряйте потенциальных клиентов',
     text: 'Объединяйте разные источники в одно место: социальные сети, мессенджеры, звонки, почта и сайты ',
@@ -21,7 +20,6 @@ export const POINTS = [
 
   {
     title: 'Опережайте своих конкурентов',
-    // eslint-disable-next-line max-len
     text: 'Настраивайте сценарии общения с клиентом с автоматической отправкой сообщений и писем об акциях и памятных датах',
     isReverse: false,
     image: IMG_3,
@@ -39,3 +37,5 @@ export const POINTS = [
     image: IMG_5,
   },
 ];
+
+export default POINTS;

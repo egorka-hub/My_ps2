@@ -11,10 +11,6 @@
   @media (max-width: $md) {
     margin-bottom: 20px;
   }
-
-  &:hover {
-    background-color: #d111521a;
-  }
 }
 
 .wrapper {
@@ -25,10 +21,9 @@
   color: #343440;
   font-size: 24px;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   line-height: 30px;
-  text-align: center;
 }
 
 .question {
@@ -37,8 +32,7 @@
   font-size: 18px;
 }
 
-.btns {
-  padding: 30px 30px;
-  display: flex;
-  justify-content: center;
+.btn {
+  background-color: #0a0a29;
+  width: 100%;
 }

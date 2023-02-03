@@ -4,7 +4,7 @@ import Container from '@/components/Container/Container';
 
 import styles from './Companies.module.scss';
 
-import { COMPANIES } from './consts';
+import COMPANIES from './consts';
 
 function Companies() {
   return (

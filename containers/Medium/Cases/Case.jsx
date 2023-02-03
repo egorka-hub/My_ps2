@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 import Container from '@/components/Container/Container';
-import styles from './Cases.module.scss';
+import styles from './Case.module.scss';
 
-function Cases({ caseTitle, caseText }) {
+function Case({ caseTitle, caseText }) {
   return (
     <div className={styles.cases}>
       <Container>
@@ -27,4 +27,4 @@ function Cases({ caseTitle, caseText }) {
   );
 }
 
-export default Cases;
+export default Case;

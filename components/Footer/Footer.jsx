@@ -38,8 +38,8 @@ function Footer() {
               <div className={styles.menuItem}>
                 <h3 className={styles.menuName}>Компания</h3>
                 <ul className={styles.blockList}>
-                  {company.map(({ title }, i) => (
-                    <li key={i} className={styles.menuList}>
+                  {company.map(({ title }) => (
+                    <li key={title} className={styles.menuList}>
                       <a className={styles.linkItems}>{title}</a>
                     </li>
                   ))}
@@ -49,8 +49,8 @@ function Footer() {
               <div className={cn(styles.menuItem, styles.documents)}>
                 <h3 className={styles.menuName}>Документы</h3>
                 <ul className={styles.blockList}>
-                  {documents.map(({ title }, i) => (
-                    <li key={i} className={styles.menuList}>
+                  {documents.map(({ title }) => (
+                    <li key={title} className={styles.menuList}>
                       <a className={styles.linkItems}>{title}</a>
                     </li>
                   ))}
@@ -61,8 +61,8 @@ function Footer() {
             <div className={styles.menuItems}>
               <h3 className={styles.menuName}>Партнерам</h3>
               <ul className={styles.blockList}>
-                {partners.map(({ title }, i) => (
-                  <li key={i} className={styles.menuList}>
+                {partners.map(({ title }) => (
+                  <li key={title} className={styles.menuList}>
                     <a className={styles.linkItems}>{title}</a>
                   </li>
                 ))}
@@ -72,8 +72,8 @@ function Footer() {
             <div className={styles.menuItems}>
               <h3 className={styles.menuName}>С чего начать</h3>
               <ul className={styles.blockList}>
-                {start.map(({ title }, i) => (
-                  <li key={i} className={styles.menuList}>
+                {start.map(({ title }) => (
+                  <li key={title} className={styles.menuList}>
                     <a className={styles.linkItems}>{title}</a>
                   </li>
                 ))}

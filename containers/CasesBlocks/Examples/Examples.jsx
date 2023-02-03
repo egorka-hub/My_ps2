@@ -4,7 +4,7 @@ import Container from '@/components/Container/Container';
 
 import styles from './Examples.module.scss';
 
-import { CASES } from './consts';
+import CASES from './consts';
 
 function Examples() {
   return (

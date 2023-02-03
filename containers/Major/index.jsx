@@ -1,15 +1,15 @@
 import FirstBlock from './FirstBlock/FirstBlock';
 import Blocks from './Blocks/Blocks';
-import Cases from './Cases/Cases';
+import Cases from './Cases/Case';
 import Fields from './Fields/Fields';
 import Try from './Try/Try';
 
-import { POINTS } from './Blocks/consts';
-import { CASES } from './Cases/consts';
+import POINTS from './Blocks/consts';
+import CASES from './Cases/consts';
 
 import styles from './Major.module.scss';
 
-export function Major() {
+function Major() {
   return (
     <>
       <FirstBlock />
