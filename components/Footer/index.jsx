@@ -14,7 +14,7 @@ import {
 
 function Footer() {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <Container>
         <div className={styles.wrapper}>
           <div className={styles.leftFooter}>
@@ -83,7 +83,7 @@ function Footer() {
         </div>
       </Container>
       <Copyright />
-    </div>
+    </footer>
   );
 }
 

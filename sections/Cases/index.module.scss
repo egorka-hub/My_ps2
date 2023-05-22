@@ -1,0 +1,47 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f3f4f6;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 364px;
+  background-color: #ffffff;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 30px 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.whiteBox {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 14px 20px;
+}
+
+.name {
+  color: #343440;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.text {
+  color: #343440;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding: 0 30px 32px;
+}

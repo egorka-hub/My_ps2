@@ -1,15 +1,16 @@
-import { memo } from 'react';
-import Header from '../Header/Header';
+import Header from '../Header';
 import Footer from '../Footer/Footer';
 
 function Layout({ children }) {
   return (
     <>
       <Header />
-      {children}
+      <main>
+        {children}
+      </main>
       <Footer />
     </>
   );
 }
 
-export default memo(Layout);
+export default Layout;

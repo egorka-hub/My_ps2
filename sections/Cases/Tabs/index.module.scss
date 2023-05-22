@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tab {
+  border: 1px solid #6e7891;
+  background-color: transparent;
+  color: #6e7891;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 11px 20px 9px;
+  cursor: pointer;
+}
+
+.active {
+  border: 1px solid #0a0a29;
+  background-color: #0a0a29;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 11px 20px 9px;
+  cursor: pointer;
+}

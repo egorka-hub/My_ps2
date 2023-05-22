@@ -13,10 +13,7 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-}
-
-.logoBlock {
-  padding-top: 30px;
+  padding: 58px 0 47px;
 }
 
 .logoWhite {
@@ -39,13 +36,14 @@
 }
 
 .menuItems {
-  padding: 30px;
+  padding: 0 40px 40px 40px;
 }
 
 .menuName {
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 24px;
 }
 
 .blockList {
@@ -54,7 +52,7 @@
 
 .menuList {
   list-style-type: none;
-  margin-top: 12px;
+  margin-top: 16px;
 }
 
 .linkItems {
@@ -65,5 +63,5 @@
 }
 
 .documents {
-  margin-top: 30px;
+  margin-top: 40px;
 }

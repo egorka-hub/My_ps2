@@ -1,0 +1,57 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  padding: 48px 0 60px;
+}
+
+.card {
+  width: 398px;
+  background-color: #ffffff;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 30px 20px;
+}
+
+.image {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.whiteBox {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 14px 20px;
+}
+
+.name {
+  color: #343440;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.text {
+  color: #343440;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding: 0 30px 32px;
+}
+
+.category {
+  color: #6e7891;
+  font-size: 18px;
+  line-height: 22px;
+}
